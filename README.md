@@ -8,10 +8,10 @@ The trainging datasets are downloaded from the internet you can find the car's d
 
 ## The Code Flow
 -	First and foremost import the opencv liberary that's gonna do a lot of work for us in this detection system.
--	Save the captured video file
--	Save the car and pedestrian pre-trained classifiers
--	Create the classifiers for the both by the use of opencv cascade classifiers
--	Now utill the car (video) didn't stops the process will continue
+-	Save the captured video file in variable ```video```
+-	Save the car and pedestrian pre-trained classifiers and save it in ```car_tracker_file``` and ```pedestrian_tracker_file``` respectively
+-	Create the classifiers for the both, by the use of opencv cascade classifiers
+-	Now utill the video, (our simulated car) didn't stops, the process will continue
 	- And the process is, to read the video frames
 	- If it reads successfully convert that frame to the gray-scale or say black and white, because it can be process faster than in the colored form
 	- Now detect the cars and pedestrian from the frames, which it gives us the an array of 4D arrays, of each and every single car and pedestrian.
