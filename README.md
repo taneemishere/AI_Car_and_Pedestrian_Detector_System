@@ -1,7 +1,7 @@
 # AI Car and Pedestrian Detector System 
 An AI based system that do detects the cars and the pedestrians from a captured video. 
 ## Requirements
-Apart from installing [Python](http://www.python.org/), you'll also need to pip and install the [OpenCV](https://docs.opencv.org/2.4/modules/objdetect/doc/cascade_classification.html?highlight=detectmultiscale), and this is pretty much it.
+Apart from installing [Python](http://www.python.org/), you'll also need to pip and install the [OpenCV](https://docs.opencv.org/2.4/modules/objdetect/doc/cascade_classification.html?highlight=detectmultiscale), and this is pretty much it. Optionally you'll need to install the numpy because some of the OpenCV methods return numpy arrays so that's why.
 
 ## The Trainig Data
 The trainging datasets are downloaded from the internet you can find the car's dataset also known as [car_detector data set](https://github.com/taneemishere/AI_Car_and_Pedestrian_Detector_System/blob/master/car_detector.xml), and the pedestrian's dataset known as [haarcascade_fullbody](https://github.com/taneemishere/AI_Car_and_Pedestrian_Detector_System/blob/master/haarcascade_fullbody.xml).
